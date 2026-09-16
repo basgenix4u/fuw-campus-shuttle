@@ -1,22 +1,31 @@
-# FUW Campus Shuttle
+<div align="center">
 
-FUW Campus Shuttle is an AI-powered campus mobility concept for Federal University Wukari. It combines a passenger/driver mobile app, admin dashboard and planning documentation to improve shuttle coordination and visibility inside a university environment.
+# 🚌 FUW Campus Shuttle
+
+**An AI-powered campus mobility concept for Federal University Wukari** — a passenger/driver mobile app, admin dashboard, and planning documentation that make shuttle coordination visible to everyone.
+
+[![React Native](https://img.shields.io/badge/React%20Native-Expo-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](./LICENSE)
 
 👤 **Author:** [Abdulbasit Abdulalim](https://github.com/basgenix4u)
 
----
-
-## Product Overview
-
-University transport can be difficult to coordinate when passengers, drivers and administrators do not have a shared system. FUW Campus Shuttle proposes a smarter mobility experience where passengers can access shuttle services, drivers can manage trips and administrators can monitor system activity.
-
-This repository demonstrates product planning, mobile-first development, dashboard UI design and AI/data-analysis experimentation through a Jupyter Notebook.
+</div>
 
 ---
 
-## Repository Modules
+## ✨ Product Overview
 
-```txt
+University transport is hard to coordinate when passengers, drivers, and administrators have no shared system. **FUW Campus Shuttle** proposes a smarter mobility experience: passengers access shuttle services, drivers manage trips, and administrators monitor activity — all from one connected picture.
+
+This repository demonstrates product planning, mobile-first development, dashboard UI design, and AI / data-analysis experimentation via Jupyter Notebook.
+
+---
+
+## 📦 Repository Modules
+
+```text
 FUWSHUTTLE.ipynb        AI/data analysis notebook and system concept work
 mobile-app/             Expo/React Native passenger-driver mobile app
 admin-dashboard/        Web dashboard prototype for admins
@@ -25,43 +34,40 @@ documentation/          Supporting project documentation and reports
 
 ---
 
-## Key Features
+## 🚀 Key Features
 
-### Mobile App
-
+### 📱 Mobile App
 - Passenger and driver mobile app structure
 - Expo-based development setup
 - Mobile-first shuttle experience prototype
 - App assets and configuration included
 
-### Admin Dashboard
-
+### 🖥️ Admin Dashboard
 - Web dashboard prototype
 - Login page and dashboard interface
-- Fleet/rides monitoring concept
+- Fleet / rides monitoring concept
 - Analytics-ready layout
 
-### AI / Planning
-
+### 🧠 AI & Planning
 - Jupyter Notebook for shuttle system modelling and experimentation
 - Documentation for project testing and system design
 - Foundation for future route prediction and demand analysis
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
-| Area | Technologies |
+| Area | Technology |
 | --- | --- |
 | Mobile | React Native, Expo |
 | Dashboard | HTML, CSS, JavaScript |
-| AI/Analysis | Jupyter Notebook, Python ecosystem |
+| AI / Analysis | Jupyter Notebook, Python ecosystem |
 | Documentation | Markdown |
-| Deployment Target | GitHub Pages for dashboard, Expo for mobile preview |
+| Deployment | GitHub Pages (dashboard), Expo (mobile preview) |
 
 ---
 
-## Getting Started
+## ⚡ Getting Started
 
 ### Mobile App
 
@@ -71,13 +77,13 @@ npm install
 npm start
 ```
 
-Then open the app using Expo Go or an emulator.
+Open with **Expo Go** or an emulator.
 
 ### Admin Dashboard
 
-Open the dashboard files locally:
+Open locally:
 
-```txt
+```text
 admin-dashboard/login.html
 admin-dashboard/dashboard.html
 ```
@@ -86,50 +92,54 @@ Or deploy the `admin-dashboard` directory with GitHub Pages.
 
 ### Notebook
 
-Open the notebook:
-
-```txt
+```text
 FUWSHUTTLE.ipynb
 ```
 
-Use Jupyter Notebook, JupyterLab or VS Code with the Jupyter extension.
+Use Jupyter Notebook, JupyterLab, or VS Code with the Jupyter extension.
 
 ---
 
-## Live Demo / Testing
+## 🧪 Live Demo / Testing
 
-The project includes demo/testing links and dashboard credentials inside the existing documentation and dashboard prototype. Treat any public credentials as demo-only credentials and never use production passwords in a public repository.
-
----
-
-## Roadmap
-
-- Add real backend API for trips, drivers and passengers
-- Add authentication and role-based access control
-- Add live shuttle tracking on a map
-- Add route optimization and ETA prediction
-- Add passenger booking/check-in workflow
-- Add driver trip management
-- Add admin analytics dashboard
-- Add database persistence
-- Add notification system
-- Add automated mobile/web tests
+Demo and testing links — plus dashboard credentials — live in the existing documentation and dashboard prototype. **Treat any public credentials as demo-only** and never use production passwords in a public repository.
 
 ---
 
-## Security Notes
+## 🔒 Security Notes
 
-- Do not commit production credentials.
-- Use demo-only passwords for public prototypes.
-- Add authentication before using the dashboard in production.
-- Protect any live GPS/location data.
+- Do not commit production credentials
+- Use demo-only passwords for public prototypes
+- Add authentication before using the dashboard in production
+- Protect any live GPS / location data
 
 ---
 
-## Author
+## 🗺 Roadmap
 
-Built and maintained by **Abdulbasit Abdulalim**.
+- [ ] Real backend API for trips, drivers, and passengers
+- [ ] Authentication and role-based access control
+- [ ] Live shuttle tracking on a map
+- [ ] Route optimization and ETA prediction
+- [ ] Passenger booking / check-in workflow
+- [ ] Driver trip management
+- [ ] Admin analytics dashboard
+- [ ] Database persistence
+- [ ] Notification system
+- [ ] Automated mobile / web tests
 
-- GitHub: https://github.com/basgenix4u
-- Website: https://alimswrite.com
-- LinkedIn: https://www.linkedin.com/in/abdulbasit-abdulalim-94a701354
+---
+
+## 📄 License
+
+Released under the [MIT License](./LICENSE).
+
+---
+
+<div align="center">
+
+Built and maintained by **Abdulbasit Abdulalim**
+
+[GitHub](https://github.com/basgenix4u) · [Website](https://alimswrite.com) · [LinkedIn](https://www.linkedin.com/in/abdulbasit-abdulalim-94a701354)
+
+</div>
